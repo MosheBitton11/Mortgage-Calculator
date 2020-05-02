@@ -1,0 +1,14 @@
+﻿﻿
+
+.invalid{
+    border: 1px solid red;
+}
+
+.invalid + .error{
+    display: block;
+}
+.error{
+    font-size:15px;
+    color:red;
+    display: none;
+}
